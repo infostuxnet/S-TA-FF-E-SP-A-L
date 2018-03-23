@@ -61,12 +61,12 @@ body {
 /****************/
 body {
   overflow-x: hidden;
-  margin: 0;
+  margin: 0; 
   padding: 0;
   -webkit-backface-visibility: hidden;
-          backface-visibility: hidden;
+         /**  backface-visibility: hidden; **/
   -webkit-perspective: 1000;
-          perspective: 1000;
+         /**  perspective: 1000; **/
   /** background: linear-gradient(45deg, #755b9e 0%, #a9fbff 100%);**/
 }
 .content {
@@ -358,7 +358,7 @@ body {
   width: 130px;
   height: 36px;
   margin: 22px auto 20px auto;
-  padding: 0 10px 0 10px;
+  padding: 0 -10px 0 -10px;
   text-align: center;
   text-decoration: none;
   text-shadow: 0 0 2px rgba(0, 0, 0, 0.25);
@@ -427,7 +427,7 @@ body {
   position: absolute;
   width: 0;
   height: 0;
-  top: 23px;
+  top: 13px;
   right: 100%;
   border-width: 15px;
   border-style: solid;
@@ -449,7 +449,7 @@ body {
 .content .block .date p {
   margin: 0;
   width: 150px;
-  height: 58px;
+  height: 38px;
   padding: 10px 25px 10px 25px;
   line-height: 58px;
   color: #080808;
