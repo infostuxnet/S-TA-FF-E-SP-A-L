@@ -67,7 +67,7 @@ body {
           backface-visibility: hidden;
   -webkit-perspective: 1000;
           perspective: 1000;
-  background: linear-gradient(45deg, #755b9e 0%, #a9fbff 100%);
+  /** background: linear-gradient(45deg, #755b9e 0%, #a9fbff 100%);**/
 }
 .content {
   position: relative;
@@ -81,7 +81,7 @@ body {
   margin: 5px auto 0 auto;
   font-size: 78px;
   text-align: center;
-  color: #fff;
+  color: #080808;
   text-shadow: 0 3px 0 #dadada, 0 1px 0 #dadada, 0 2px 0 #dadada, 0 3px 5px rgba(0, 0, 0, 0.5);
 }
 .content .logo {
@@ -307,7 +307,7 @@ body {
   margin-right: auto;
   left: 0;
   right: 0;
-  background: #fff;
+  background: #3a2127;
   z-index: -100;
 }
 .content .timeline {
@@ -339,7 +339,7 @@ body {
 .content .block h4 {
   width: 90%;
   margin: 22px auto;
-  color: #4b5967;
+  color: #080808;
   font-size: 32px;
   text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
 }
@@ -350,7 +350,7 @@ body {
   width: 85%;
   height: auto;
   margin: 0 auto;
-  color: #4b5967;
+  color: #080808;
   font-size: 17px;
 }
 .content .block a {
@@ -402,7 +402,7 @@ body {
           backface-visibility: hidden;
   -webkit-perspective: 1000;
           perspective: 1000;
-  background: #fff;
+  background: #ccab66;
   border-radius: 7px;
   -webkit-box-shadow: 0 3px 5px rgba(0, 0, 0, 0.08);
           box-shadow: 0 3px 5px rgba(0, 0, 0, 0.08);
@@ -420,7 +420,7 @@ body {
   left: 100%;
   border-width: 15px;
   border-style: solid;
-  border-color: transparent transparent transparent #ffffff;
+  border-color: transparent transparent transparent #ccab66;
 }
 .content .block .right::before {
   content: "";
@@ -431,7 +431,7 @@ body {
   right: 100%;
   border-width: 15px;
   border-style: solid;
-  border-color: transparent #ffffff transparent transparent;
+  border-color: transparent #ccab66 transparent transparent;
 }
 .content .block .left {
   float: left;
@@ -452,11 +452,11 @@ body {
   height: 58px;
   padding: 10px 25px 10px 25px;
   line-height: 58px;
-  color: #4b5967;
+  color: #080808;
   text-align: center;
   font-weight: bold;
   border-radius: 7px;
-  background-color: #fff;
+  background-color: #ccab66;
   -webkit-box-shadow: 0 3px 5px rgba(0, 0, 0, 0.08);
           box-shadow: 0 3px 5px rgba(0, 0, 0, 0.08);
 }
@@ -484,7 +484,7 @@ body {
   border-radius: 17px;
   -webkit-box-shadow: 0 -2px 6px rgba(0, 0, 0, 0.1);
           box-shadow: 0 -2px 6px rgba(0, 0, 0, 0.1);
-  background-color: #fff;
+  background-color: #ccab66;
   z-index: 1000;
 }
 ::-moz-selection {
